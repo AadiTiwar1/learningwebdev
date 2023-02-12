@@ -1,0 +1,123 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #34495e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  margin-right: 20px;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  color: #f1c40f;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 64px;
+  margin: 0;
+  text-shadow: 2px 2px 4px #333;
+}
+
+.services {
+  background-color: #f1f1f1;
+  padding: 100px 0;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.services .service-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-card {
+  width: calc(33.33% - 20px);
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 2px 2px 4px #333;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.service-card p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.cta {
+  background-color: #34495e;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.cta button {
+  background-color: #f1c40f;
+  border: none;
+  padding: 20px 40px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #e67e22;
+}
+
+.about {
+  background-color: #f1f1f1;
+  padding: 100px 0;
+}
+
+.about
